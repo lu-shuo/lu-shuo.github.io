@@ -13,6 +13,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "cz-git": "^1.7.0",
     "vitepress": "1.0.0-beta.5"
   },
   "pnpm": {
@@ -24,5 +27,10 @@
   },
   "dependencies": {
     "vue": "^3.3.4"
-  }
+  },
+  "config": {
+		"commitizen": {
+			"path": "node_modules/cz-git"
+		}
+	}
 }
