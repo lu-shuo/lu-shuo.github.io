@@ -99,8 +99,8 @@ dist
 # public
 
 # vuepress build output
-.vuepress/dist
-/docs/.vitepress/cache
+.vitepress/dist
+.vitepress/cache
 
 # vuepress v2.x temp and cache directory
 .temp
@@ -127,3 +127,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+**/cache
