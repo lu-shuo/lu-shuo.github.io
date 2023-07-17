@@ -10,7 +10,7 @@ export const nav: DefaultTheme.NavItem[] = [
     items: [
       {
         text: 'Javascript',
-        link: '/front-end/javascript/base/1-prototype-chain/',
+        link: '/front-end/javascript/advanced/1-prototype-chain/',
       },
     ],
   },
