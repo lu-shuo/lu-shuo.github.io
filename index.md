@@ -24,7 +24,7 @@ features:
       src: /features/javascript.svg
     title: 世界上最好的语言
     # details: 大厂程序媛，国内某互联网厂搬砖。
-    # link: /column/views/guide
+    link: /front-end/javascript/advanced/1-prototype-chain/
   - icon:
       src: /features/typescript.svg
     title: 微软大法好
