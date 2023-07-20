@@ -23,7 +23,7 @@ features:
   - icon:
       src: /features/javascript.svg
     title: 世界上最好的语言
-    # details: 大厂程序媛，国内某互联网厂搬砖。
+    # details: 。
     link: /front-end/javascript/advanced/1-prototype-chain/
   - icon:
       src: /features/typescript.svg
@@ -34,6 +34,7 @@ features:
   - icon:
       src: /features/vue.svg
     title: 吃饭家伙
+    link: /front-end/vue/apply/不定高度的过渡动画组件
   - icon:
       src: /features/react.svg
     title: 在学

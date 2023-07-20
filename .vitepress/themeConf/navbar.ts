@@ -12,6 +12,10 @@ export const nav: DefaultTheme.NavItem[] = [
         text: 'Javascript',
         link: '/front-end/javascript/advanced/1-prototype-chain/',
       },
+      {
+        text: 'Vue',
+        link: '/front-end/vue/apply/不定高度的过渡动画组件',
+      },
     ],
   },
   // {
