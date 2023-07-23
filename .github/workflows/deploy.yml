@@ -13,24 +13,18 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    # permissions:
-    #   pages: write
-    #   id-token: write
-    # environment:
-    #   name: github-pages
-    #   url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: Install Node
+      - name: Install node
         uses: actions/setup-node@v3
         with:
           node-version: 16
 
-      - name: Install Pnpm
+      - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 7
@@ -59,6 +53,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.ACCESS_TOKEN }} // 配置在项目里的secrets
+          github_token: ${{ secrets.ACCESS_TOKEN }} # 配置在项目里的secrets
           exclude_assets: ''
-          publish_dir: packages/.vitepress/dist // 需要发布内容的路径
+          publish_dir: packages/.vitepress/dist # 需要发布内容的路径
