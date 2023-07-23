@@ -9,8 +9,12 @@ export const nav: DefaultTheme.NavItem[] = [
     text: '前端',
     items: [
       {
-        text: 'Javascript',
+        text: 'JavaScript',
         link: '/front-end/javascript/advanced/1-prototype-chain/',
+      },
+      {
+        text: 'TypeScript',
+        link: '/front-end/typescript/base/1.常用类型/',
       },
       {
         text: 'Vue',

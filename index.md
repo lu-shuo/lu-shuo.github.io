@@ -3,8 +3,8 @@
 layout: home
 title: 首页
 hero:
-  name: 陆硕的博客
-  text: 分享技术，记录生活
+  name: 前端练习生
+  text: 练习时长两年半
   tagline: /多读书/多看报/少吃零食/多睡觉/
   image:
     # 首页右边的图片
@@ -28,6 +28,7 @@ features:
   - icon:
       src: /features/typescript.svg
     title: 微软大法好
+    link: /front-end/typescript/base/1.常用类型/
   - icon:
       src: /features/css.svg
     title: 世界上最难的语言
