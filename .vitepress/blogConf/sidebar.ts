@@ -3,13 +3,21 @@ import { DefaultTheme } from 'vitepress'
 export const sidebar: DefaultTheme.Sidebar = {
   '/front-end/javascript': [
     {
+      text: '基础',
+      items: [
+        {
+          text: '数组',
+          link: '/front-end/javascript/base/数组.md',
+        },
+      ],
+    },
+    {
       text: '高级',
       items: [
         {
           text: '原型链',
           link: '/front-end/javascript/advanced/1-prototype-chain/',
         },
-        // { text: '作用域', link: '/front-end/javascript/advanced/2.scoping/' },
       ],
     },
   ],

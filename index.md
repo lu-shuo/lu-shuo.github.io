@@ -24,7 +24,7 @@ features:
       src: /features/javascript.svg
     title: 世界上最好的语言
     # details: 。
-    link: /front-end/javascript/advanced/1-prototype-chain/
+    link: /front-end/javascript/base/数组.md
   - icon:
       src: /features/typescript.svg
     title: 微软大法好
