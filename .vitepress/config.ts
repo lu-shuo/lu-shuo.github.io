@@ -4,9 +4,10 @@ import { nav, sidebar } from './blogConf'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "lushuo's blog",
-  description: '一个前端小白的博客，分享工作中的所见所得',
+  description: '一位前端开发者的博客，记录工作学习中的一点心得',
   lang: 'zh',
   lastUpdated: true,
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/avatar.png',
