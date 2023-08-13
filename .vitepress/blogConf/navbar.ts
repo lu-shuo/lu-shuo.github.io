@@ -20,6 +20,10 @@ export const nav: DefaultTheme.NavItem[] = [
         text: 'Vue',
         link: '/front-end/vue/apply/不定高度的过渡动画组件',
       },
+      {
+        text: '浏览器与网络',
+        link: '/front-end/browserAndNetwork/howBrowserWork/1.宏观视角下的浏览器/1.1chrome架构/',
+      },
     ],
   },
   // {
