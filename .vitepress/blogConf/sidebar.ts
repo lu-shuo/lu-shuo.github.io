@@ -84,8 +84,12 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: '宏观视角的浏览器',
           items: [
             {
-              text: '1个页面，4个进程？',
+              text: 'chrome架构',
               link: '/front-end/browserAndNetwork/howBrowserWork/1.宏观视角下的浏览器/1.1chrome架构/',
+            },
+            {
+              text: 'TCP简述',
+              link: '/front-end/browserAndNetwork/howBrowserWork/1.宏观视角下的浏览器/1.2TCP协议/',
             },
           ],
         },
