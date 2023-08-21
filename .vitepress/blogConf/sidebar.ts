@@ -84,7 +84,7 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: '宏观视角的浏览器',
           items: [
             {
-              text: 'chrome架构',
+              text: 'Chrome架构',
               link: '/front-end/browserAndNetwork/howBrowserWork/1.宏观视角下的浏览器/1.1chrome架构/',
             },
             {
@@ -94,6 +94,10 @@ export const sidebar: DefaultTheme.Sidebar = {
             {
               text: 'HTTP简述',
               link: '/front-end/browserAndNetwork/howBrowserWork/1.宏观视角下的浏览器/1.3HTTP简述/',
+            },
+            {
+              text: '导航流程',
+              link: '/front-end/browserAndNetwork/howBrowserWork/1.宏观视角下的浏览器/1.4导航流程/',
             },
           ],
         },
