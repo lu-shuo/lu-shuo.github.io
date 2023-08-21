@@ -62,7 +62,7 @@ http/1.1 一个 tcp 同时只能处理一个请求，浏览器会为每个域名
 curl -i www.baidu.com
 ```
 
-![curl baidu.com](./imgs/curl%20baidu.png)
+![curl baidu.com](./imgs/baidu.png)
 
 可以看到返回的结果可以分为响应行、响应头、响应体，如下图所示：
 
