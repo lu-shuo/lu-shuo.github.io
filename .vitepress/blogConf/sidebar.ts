@@ -91,9 +91,12 @@ export const sidebar: DefaultTheme.Sidebar = {
               text: 'TCP简述',
               link: '/front-end/browserAndNetwork/howBrowserWork/1.宏观视角下的浏览器/1.2TCP协议/',
             },
+            {
+              text: 'HTTP简述',
+              link: '/front-end/browserAndNetwork/howBrowserWork/1.宏观视角下的浏览器/1.3HTTP简述/',
+            },
           ],
         },
-        // { text: '作用域', link: '/front-end/javascript/advanced/2.scoping/' },
       ],
     },
   ],
