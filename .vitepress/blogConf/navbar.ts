@@ -18,7 +18,7 @@ export const nav: DefaultTheme.NavItem[] = [
       },
       {
         text: 'Vue',
-        link: '/front-end/vue/apply/不定高度的过渡动画组件',
+        link: '/front-end/vue/implementation/1.响应式实现.md',
       },
       {
         text: '浏览器与网络',
