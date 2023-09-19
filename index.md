@@ -24,7 +24,7 @@ features:
       src: /features/javascript.svg
     title: 世界上最好的语言
     # details: 。
-    link: /front-end/javascript/base/数组.md
+    link: /front-end/javascript/base/1.数组.md
   - icon:
       src: /features/typescript.svg
     title: 微软大法好
@@ -32,11 +32,12 @@ features:
   - icon:
       src: /features/css.svg
     title: 世界上最难的语言
+    link: /front-end/css/use/1.常用css技巧/
   - icon:
       src: /features/vue.svg
     title: 吃饭家伙
-    link: /front-end/vue/apply/不定高度的过渡动画组件
-  - icon:
-      src: /features/react.svg
-    title: 在学
+    link: /front-end/vue/use/1.不定高度的过渡动画组件
+  # - icon:
+  #     src: /features/react.svg
+  #   title: 在学
 ---

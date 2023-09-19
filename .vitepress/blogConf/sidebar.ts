@@ -7,7 +7,7 @@ export const sidebar: DefaultTheme.Sidebar = {
       items: [
         {
           text: '数组',
-          link: '/front-end/javascript/base/数组.md',
+          link: '/front-end/javascript/base/1.数组.md',
         },
       ],
     },
@@ -70,9 +70,19 @@ export const sidebar: DefaultTheme.Sidebar = {
       items: [
         {
           text: '不定高度的过渡动画组件',
-          link: '/front-end/vue/apply/不定高度的过渡动画组件',
+          link: '/front-end/vue/use/1.不定高度的过渡动画组件',
         },
-        // { text: '作用域', link: '/front-end/javascript/advanced/2.scoping/' },
+      ],
+    },
+  ],
+  '/front-end/css': [
+    {
+      text: '应用',
+      items: [
+        {
+          text: '常用css技巧',
+          link: '/front-end/css/use/1.常用css技巧/',
+        },
       ],
     },
   ],

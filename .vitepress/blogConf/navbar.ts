@@ -10,7 +10,7 @@ export const nav: DefaultTheme.NavItem[] = [
     items: [
       {
         text: 'JavaScript',
-        link: '/front-end/javascript/base/数组.md',
+        link: '/front-end/javascript/base/1.数组.md',
       },
       {
         text: 'TypeScript',
@@ -18,7 +18,11 @@ export const nav: DefaultTheme.NavItem[] = [
       },
       {
         text: 'Vue',
-        link: '/front-end/vue/apply/不定高度的过渡动画组件',
+        link: '/front-end/vue/use/1.不定高度的过渡动画组件',
+      },
+      {
+        text: 'Css',
+        link: '/front-end/css/use/1.常用css技巧/',
       },
       {
         text: '浏览器与网络',
