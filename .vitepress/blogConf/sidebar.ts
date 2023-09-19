@@ -66,6 +66,15 @@ export const sidebar: DefaultTheme.Sidebar = {
   ],
   '/front-end/vue': [
     {
+      text: '设计与实现',
+      items: [
+        {
+          text: '响应式系统设计与实现',
+          link: '/front-end/vue/implementation/1.响应式实现.md',
+        },
+      ],
+    },
+    {
       text: '应用',
       items: [
         {

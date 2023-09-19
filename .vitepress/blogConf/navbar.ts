@@ -18,10 +18,10 @@ export const nav: DefaultTheme.NavItem[] = [
       },
       {
         text: 'Vue',
-        link: '/front-end/vue/use/1.不定高度的过渡动画组件',
+        link: '/front-end/vue/implementation/1.响应式实现.md',
       },
       {
-        text: 'Css',
+        text: 'CSS',
         link: '/front-end/css/use/1.常用css技巧/',
       },
       {
