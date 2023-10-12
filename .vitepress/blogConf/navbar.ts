@@ -28,6 +28,10 @@ export const nav: DefaultTheme.NavItem[] = [
         text: '浏览器与网络',
         link: '/front-end/browserAndNetwork/howBrowserWork/1.宏观视角下的浏览器/1.1chrome架构/',
       },
+      {
+        text: '工具',
+        link: '/front-end/tools/npm/1.package.json说明.md',
+      },
     ],
   },
   // {

@@ -69,8 +69,16 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: '设计与实现',
       items: [
         {
-          text: '响应式系统设计与实现',
+          text: '响应式系统基本设计',
           link: '/front-end/vue/implementation/1.响应式实现.md',
+        },
+        {
+          text: '非原始值的响应式解决方案',
+          link: '/front-end/vue/implementation/2.非原始值的响应式方案.md',
+        },
+        {
+          text: '原始值的响应式解决方案',
+          link: '/front-end/vue/implementation/3.原始值的响应式方案.md',
         },
       ],
     },
@@ -119,6 +127,17 @@ export const sidebar: DefaultTheme.Sidebar = {
               link: '/front-end/browserAndNetwork/howBrowserWork/1.宏观视角下的浏览器/1.4导航流程/',
             },
           ],
+        },
+      ],
+    },
+  ],
+  '/front-end/tools': [
+    {
+      text: 'npm',
+      items: [
+        {
+          text: 'Package.json 字段说明',
+          link: '/front-end/tools/npm/1.package.json说明.md',
         },
       ],
     },
