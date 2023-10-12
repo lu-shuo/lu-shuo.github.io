@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "基于vitepress搭建的个人博客",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
@@ -16,7 +17,7 @@
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
     "cz-git": "^1.7.0",
-    "vitepress": "1.0.0-beta.5"
+    "vitepress": "1.0.0-rc.20"
   },
   "pnpm": {
     "peerDependencyRules": {
