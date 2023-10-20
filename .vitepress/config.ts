@@ -18,7 +18,7 @@ export default defineConfig({
       label: '目录',
     },
     footer: {
-      message: 'Never say never',
+      message: 'Either outstanding or out',
       copyright: 'Copyright © 2023 Lu Shuo',
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/lu-shuo' }],
